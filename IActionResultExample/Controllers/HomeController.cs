@@ -19,5 +19,10 @@ namespace IActionResultExample.Controllers
         {
             return Content("Contact us", "text/plain");
         }
+        [Route("/Career")]
+        public IActionResult Jobs()
+        {
+            return Content("Carrer Opportunity", "text/plain");
+        }
     }
 }
