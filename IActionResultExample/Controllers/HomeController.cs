@@ -19,5 +19,10 @@ namespace IActionResultExample.Controllers
         {
             return Content("Contact us", "text/plain");
         }
+        [Route("/privacy")]
+        public IActionResult Privacy()
+        {
+            return Content("Privacy Policy", "text/plain");
+        }
     }
 }
