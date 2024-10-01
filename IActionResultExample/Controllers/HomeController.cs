@@ -14,5 +14,10 @@ namespace IActionResultExample.Controllers
         {
             return Content("About section", "text/plain");
         }
+        [Route("/contact")]
+        public IActionResult Contact()
+        {
+            return Content("Contact us", "text/plain");
+        }
     }
 }
