@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "z7bHqXN/vxPAMKNfofxszYISOCnIbS24kw3uUypIN2U=",
+  "Source": "IActionResultExample",
+  "BasePath": "_content/IActionResultExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionResultExample\\wwwroot",
+      "Source": "IActionResultExample",
+      "ContentRoot": "D:\\Restart\\IActionResultExample\\IActionResultExample\\wwwroot\\",
+      "BasePath": "_content/IActionResultExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Restart\\IActionResultExample\\IActionResultExample\\wwwroot\\Aditya Mohan.pdf",
+      "SourceId": "IActionResultExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Restart\\IActionResultExample\\IActionResultExample\\wwwroot\\",
+      "BasePath": "_content/IActionResultExample",
+      "RelativePath": "Aditya Mohan.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Aditya Mohan.pdf"
+    }
+  ]
+}
