@@ -9,5 +9,10 @@ namespace IActionResultExample.Controllers
         {
             return File("/", "application/pdf");
         }
+        [Route("/about")]
+        public IActionResult About()
+        {
+            return Content("About section", "text/plain");
+        }
     }
 }
