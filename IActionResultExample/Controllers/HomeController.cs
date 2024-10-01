@@ -19,10 +19,17 @@ namespace IActionResultExample.Controllers
         {
             return Content("Contact us", "text/plain");
         }
+<<<<<<< HEAD
         [Route("/privacy")]
         public IActionResult Privacy()
         {
             return Content("Privacy Policy", "text/plain");
+=======
+        [Route("/Career")]
+        public IActionResult Jobs()
+        {
+            return Content("Carrer Opportunity", "text/plain");
+>>>>>>> a3c2862fd438613473c1220cb8f3ca1e3963c279
         }
     }
 }
