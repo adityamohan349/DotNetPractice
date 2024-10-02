@@ -32,7 +32,7 @@ namespace IActionResultExample.Controllers
             return Content("Carrer Opportunity", "text/plain");
         }
         [Route("/Remote")]
-        public IActionResult Remote Change()
+        public IActionResult RemoteChange()
         {
             return Content("Remote", "text/plain");
         }
