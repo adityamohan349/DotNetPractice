@@ -31,7 +31,7 @@ namespace IActionResultExample.Controllers
         {
             return Content("Carrer Opportunity", "text/plain");
         }
-        [Route("/Remote")]
+        [Route("/Remote-Server")]
         public IActionResult RemoteChange()
         {
             return Content("Remote", "text/plain");
