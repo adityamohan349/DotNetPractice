@@ -24,11 +24,17 @@ namespace IActionResultExample.Controllers
         public IActionResult Privacy()
         {
             return Content("Privacy Policy", "text/plain");
+        }
 
         [Route("/Career")]
         public IActionResult Jobs()
         {
             return Content("Carrer Opportunity", "text/plain");
+        }
+        [Route("/Remote")]
+        public IActionResult Remote Change()
+        {
+            return Content("Remote", "text/plain");
         }
     }
 }
